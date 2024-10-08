@@ -22,7 +22,12 @@ const PrepareForCheckoutBtn = () => {
     }
   };
   return (
-    <Button label={'Checkout'} onPress={_onPress} processing={processing} description='Test an order with 2$ (1$ tip)'/>
+    <Button
+      label={'Checkout'}
+      onPress={_onPress}
+      processing={processing}
+      description="Test an order with 2$ (1$ tip)"
+    />
   );
 };
 

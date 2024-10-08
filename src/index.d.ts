@@ -1,4 +1,18 @@
-export type CurrencyCodeType = 'BGN' | 'BRL' | 'CHF' | 'CLP' | 'CZK' | 'DKK' | 'EUR' | 'GBP' | 'HUF' | 'NOK' | 'PLN' | 'RON' | 'SEK' | 'USD'
+export type CurrencyCodeType =
+  | 'BGN'
+  | 'BRL'
+  | 'CHF'
+  | 'CLP'
+  | 'CZK'
+  | 'DKK'
+  | 'EUR'
+  | 'GBP'
+  | 'HUF'
+  | 'NOK'
+  | 'PLN'
+  | 'RON'
+  | 'SEK'
+  | 'USD';
 
 interface SumUpResult {
   success: boolean;
@@ -25,7 +39,7 @@ declare class SumUpSDK {
     tipAmount?: number,
     foreignTransactionId?: string,
     skipScreenOptions?: boolean,
-    token?: string,
+    token?: string
   ): Promise<CheckoutResult>;
 }
 export default SumUpSDK;

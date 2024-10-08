@@ -64,7 +64,7 @@ class SumUpModule {
     } else {
       return NativeModules.SumUpNTC.loginToSumUpWithToken(
         SumUpModule.apiKey,
-        token,
+        token
       );
     }
   }
@@ -84,7 +84,7 @@ class SumUpModule {
     tipAmount,
     foreignTransactionId = '',
     skipScreenOptions = false,
-    token = undefined,
+    token = undefined
   ) {
     const request = {
       title,

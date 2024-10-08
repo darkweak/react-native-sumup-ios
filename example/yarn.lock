@@ -3949,10 +3949,10 @@ react-native-gradle-plugin@^0.71.15:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.15.tgz#9e6b506f30729fe8eb086981702f4e3c891d2b13"
   integrity sha512-7S3pAuPaQJlhax6EZ4JMsDNpj05TfuzX9gPgWLrFfAIWIFLuJ6aDQYAZy2TEI9QJALPoWrj8LWaqP/DGYh14pw==
 
-react-native-sumup-ios@^0.1.1:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/react-native-sumup-ios/-/react-native-sumup-ios-0.1.2.tgz#6b1361774a30df18e77a5f19022efc3b8f444e57"
-  integrity sha512-cyP7Y6maadq5NEVzohQ1Ul8OgZDzPYfjm/GjikgZuL/4Joq5IhB7NKdZgFMBe8nmOGe41aL8plOwXQ5HKlwzjQ==
+react-native-sumup-ios@^0.1.2:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/react-native-sumup-ios/-/react-native-sumup-ios-0.1.5.tgz#504792efd9d6fb6a29156c797cbdfd7fa8208e85"
+  integrity sha512-W5GGjNe4obeHFBqr8aZMbZJlIqswCxr/ZvKUVayZVWfwlW4iCWNBF+J3Oa/QYoyzdtBC7ND+7Akm2iiey8KMHw==
 
 react-native@0.71.3:
   version "0.71.3"
