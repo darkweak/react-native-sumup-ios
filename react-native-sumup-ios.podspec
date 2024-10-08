@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.authors      = package["author"]
 
-  s.platforms    = { :ios => "11.0" }
-  s.source       = { :git => "https://github.com/nguyentc21/react-native-sumup-ios.git", :tag => "#{s.version}" }
+  s.platforms    = { :ios => "16.0" }
+  s.source       = { :git => "https://github.com/darkweak/react-native-sumup-ios.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 

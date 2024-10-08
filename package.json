@@ -42,19 +42,19 @@
     "sumup",
     "sumup-ios"
   ],
-  "repository": "https://github.com/nguyentc21/react-native-sumup-ios",
-  "author": "Nguyen Tc <nguyentc21@gmail.com> (https://github.com/nguyentc21)",
+  "repository": "https://github.com/darkweak/react-native-sumup-ios",
+  "author": "Darkweak <darkweak@protonmail.com> (https://github.com/darkweak)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nguyentc21/react-native-sumup-ios/issues"
+    "url": "https://github.com/darkweak/react-native-sumup-ios/issues"
   },
-  "homepage": "https://github.com/nguyentc21/react-native-sumup-ios#readme",
+  "homepage": "https://github.com/darkweak/react-native-sumup-ios#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@evilmartians/lefthook": "^1.2.2",
     "@commitlint/config-conventional": "^17.0.2",
+    "@evilmartians/lefthook": "^1.2.2",
     "@react-native-community/eslint-config": "^3.0.2",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^28.1.2",
@@ -84,7 +84,6 @@
   "engines": {
     "node": ">= 16.0.0"
   },
-  "packageManager": "^yarn@1.22.15",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [

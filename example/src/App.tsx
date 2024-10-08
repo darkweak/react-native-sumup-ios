@@ -17,7 +17,7 @@ import LoginWithTokenBtn from './components/LoginWithTokenBtn';
 import CheckoutBtn from './components/CheckoutBtn';
 import LogoutBtn from './components/LogoutBtn';
 
-const REPOSITORY = 'https://github.com/nguyentc21/react-native-sumup-ios';
+const REPOSITORY = 'https://github.com/darkweak/react-native-sumup-ios';
 
 export default function App() {
   const [affiliateKey, setAffiliateKey] = useState('');
